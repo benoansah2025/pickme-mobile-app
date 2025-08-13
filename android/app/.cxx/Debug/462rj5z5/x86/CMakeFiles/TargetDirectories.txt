@@ -1,0 +1,2 @@
+/Users/tmx/Development/flutterProject/pickme-mobile/android/app/.cxx/Debug/462rj5z5/x86/CMakeFiles/edit_cache.dir
+/Users/tmx/Development/flutterProject/pickme-mobile/android/app/.cxx/Debug/462rj5z5/x86/CMakeFiles/rebuild_cache.dir

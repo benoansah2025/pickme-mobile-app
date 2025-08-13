@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "990593233395",
+    "firebase_url": "https://pickme-f0d3a-default-rtdb.firebaseio.com",
+    "project_id": "pickme-f0d3a",
+    "storage_bucket": "pickme-f0d3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990593233395:android:77c0cf84e78f8926e92286",
+        "android_client_info": {
+          "package_name": "com.cc77Developers.pickme_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990593233395-chutps9lv4n4agrjvlaasr2lb6qn2jvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqtudT9oYgDNQ1Cy8K9yDrPr52iYgmVy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990593233395-chutps9lv4n4agrjvlaasr2lb6qn2jvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

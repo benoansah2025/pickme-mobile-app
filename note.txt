@@ -1,0 +1,69 @@
+A. Related to No. 7. When sales payment is disabled, the driver should only come in to see something like You are not allowed to pay your 
+sales at this time using the app. You can only do so at the PickMe office. In this case, you should not display the sales amount, 
+the rectangle it is written in, and also take away the sales payment period text. Give him the chance to pay for others at this time.
+
+B. I observed that drivers can pay for themselves using the pay for others' options. When one goes to pay for others and type his 
+own number in the Beneficiary field, the system should give a pop-up that will mean that he can't pay for himself, rather he can
+ pay for someone else. 
+
+C. Relating to No. 6. Kindly make all the pop-ups in the sales payment section like the one I suggested. Don't let them be on the 
+red error pop style, and don't let them disappear by itself. Rather, put ok buttons, which, when clicked, will close the pop-up.
+
+D. I didn't see any push notifications for all the test sales payments I did. I don't know if you didn't work on that. Kindly check. => done
+
+E. I suggest that any transaction on the system, whether directly in the wallet or in the sales or elsewhere, should open detailed information
+ about the transaction when it is clicked on. The list of transactions in the history doesn't give enough information about it. For instance, 
+ sales payments for others, clicking on any of the payments there should open detailed info so I can even see the one I paid for. So kindly 
+ work on it, it's very important. Don't forget to do the same for transactions in the wallet itself. Also all activities listed in the 
+ Notifications should get this same setup. Any notification clicked on should open detailed info on that activity or let me say on that notification. 
+
+F. Relating to No. 10. Can you give us that chance to Edit the content of all push notifications? If yes, then kindly check and work on it for us.
+
+-------------------------------------------------------------------------------------------------------------
+
+1. We should put a button in the vendors page that says Add your business 
+2. A form will open to add business details including Name, address, service provided, a picture, and others, like we add at the backend. 
+3. Then we implement a subscription plan with prices and durations like 1 month, 3 months and let's say 1 year.
+4. You will give us chance to create the subscription plans and their prices at the backend. 
+5. When one adds his business, he pays with wallet or momo.
+6. Cinfirming will trigger payments and deductions will be done automatically, then the request will come to the backend for review and approval. 
+When it is approved then it publishes on the app and when the request is rejected, the system refunds the deducted amount. 
+7. User won't be able to edit his details on the app once approved and published. Therefore a prompt should be given to the user when he is about to confirm. 
+Editing a published business should only be done at the backend. 
+8. User can add as many businesses as he wants. Therefore, he should get a place to see all his businesses added, Active and expired ones. Active ones 
+can have number of days left to expire indicated on them as tags. 
+9. When a subscription is about to expire, we give notification to prompt the business owner. 
+10. User can renew his subscription from the expired subscriptions. However, we won't review it again. It's only new businesses that are to be reviewed. 
+11. On the homescreen, the screens of an ongoing trip and any where necessary, the system should display the details of a published business in a 
+horizontal text with the business picture moving from right to left at the top or bottom of the screen like we see on television. The system should 
+pick which business to display in a random selection. Clicking on the sliding text should redirect the user to call the business contact number. 
+But a prompt should be given to confirm that indeed user would want to call the business as a user may accidentally click on the sliding text.
+
+-------------------------------------------------------------------------------------------------------------
+
+In the user profile, kindly take away my cart and implement these in the following. 
+
+A. Business Opportunities 
+
+1. Change the name from business opportunities to Invest In PickMe
+2. When clicked on invest in PickMe, it will open a page and display the investment Title, a Flyer of the investment opportunity. 
+And there will be a read more text which when clicked will open a detailed explanation of that investment opportunity. 
+3. Give us the chance to create, edit and discard the investment opportunity at the backend.
+
+B.  Favorite Service Providers
+
+1. This will display the user's favorite drivers, delivery runner, and personal shoppers (workers).
+2. After a worker provides a service, the user gets the chance to add him to his favorite, meaning he provided a good service. This can be done 
+at the end of a trip or any other services by clicking on a button that says add to favorites. 
+3. In the favorites, you should put those workers under categories based on the services they provided. Some workers provide two or more services 
+and hence can be a favorite under one service and not the other services. He can also be a favorite under many services if only the user has added 
+him to those services. Being a favorite under one service doesn't mean you are favorite under all the services. 
+4. Now once a customer has favorite service providers, whenever he sends a request to the system, the system should first consider his favorites if 
+any of them is closer to provide the requested service before it goes to any other person. With this the customer will always be served by his favorite service providers. 
+5. In the list of favorites, the user should be able to remove workers. However user can only add favorites at the end of services.
+6. User should be able to add up to 5 favorites under each of the services. 
+7. A simple button to add a worker to favorite should be added to the trip or service history for the user to add the worker to the favorites. 
+But the button should disappear in 24hrs. 
+8. When user has 5 favorites already, he shouldn't get the chance to add a worker to favorites at the end of the trip or service. The only way to 
+add is to first delete an existing worker under that service from the favorites and go to the trip history or the service history to add a new one 
+using the 24hrs disappearing button.
