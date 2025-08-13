@@ -37,7 +37,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
-  final GoogleService _googleService = new GoogleService();
+  // final GoogleService _googleService = new GoogleService();
   final AppleService _appleService = new AppleService();
 
   final _phoneController = new TextEditingController();
@@ -137,7 +137,7 @@ class _LoginPageState extends State<LoginPage> {
 
     User? user;
     if (index == 0) {
-      user = await _googleService.googleSignIn();
+      // user = await _googleService.googleSignIn();
       setState(() => _isLoading = false);
       if (user == null) {
         toastContainer(

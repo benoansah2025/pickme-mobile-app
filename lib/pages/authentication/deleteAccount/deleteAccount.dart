@@ -28,7 +28,7 @@ class DeleteAccount extends StatefulWidget {
 
 class _DeleteAccountState extends State<DeleteAccount> {
   final FireAuth _firebaseAuth = new FireAuth();
-  final GoogleService _googleService = new GoogleService();
+  // final GoogleService _googleService = new GoogleService();
 
   final List<Map<String, dynamic>> _reasonList = [
     {"reason": "I don't find it useful", "selected": false},
@@ -141,7 +141,7 @@ class _DeleteAccountState extends State<DeleteAccount> {
       saveBoolShare(key: "auth", data: false);
       await deleteCache();
       await _firebaseAuth.signOut();
-      await _googleService.googleSignOut();
+      // await _googleService.googleSignOut();
       setState(() => _isLoading = false);
       toastContainer(
         text: httpResult["data"]['msg'],
